@@ -1,0 +1,33 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx30dd0c7c35c99b66",
+# 公众号appSecret
+"app_secret": "7a4a6be5f4c578bd0b07af2bd167ef84",
+# 模板消息id
+"template_id": "OGnLKZa31tyYgT4b9dtsMsv-_Fta8yEN1V3XrtaEwgc",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["odE9g6W9KFwNCUH8_HSSbrDIRQ5I"，"odE9g6d8FYK0BKOqX6MxbBd_kGl4"],
+
+# 信息配置
+# 和风天气apikey
+"weather_key": "de223dd227e5492781cb222eaa5cd032",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "武汉市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "钱猪猪", "birthday": "1994-01-06"},
+# 生日3
+"birthday2": {"name": "丈母娘", "birthday": "1969-12-12"},
+# 生日4
+"birthday3": {"name": "老娘", "birthday": "1963-01-10"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2000-08-31",
+
+"love_date": "2017-02-10",
+
+"love_date": "2021-08-10",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "",
+# 金句英文
+"note_en": ""
+}
